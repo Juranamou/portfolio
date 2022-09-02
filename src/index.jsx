@@ -8,9 +8,9 @@ import './index.css';
 const App = () => {
   return (
     <>
-      <div className="flex justify-center items-center h-screen w-screen border-l-4 min-h-max">
+      <div className='flex h-screen'>
         <AboutMe />
-        <Welcome />
+        <Welcome className="flex justify-center items-center h-screen w-screen min-w-full min-h-full shrink-0 " />
       </div>
     </>
   );
