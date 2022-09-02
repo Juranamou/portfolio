@@ -7,7 +7,7 @@ export default function WelcomePage({setPage}) {
     <>
       <div className='flex h-screen'>
         <AboutMe />
-        <Navbar setPage={setPage} className="flex justify-center items-center h-screen w-screen min-w-full min-h-full shrink-0 " />
+        <Navbar setPage={setPage} />
       </div>
     </>
   );

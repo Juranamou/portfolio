@@ -10,7 +10,7 @@ const App = () => {
   const [page, setPage] = useState('welcome');
   return (
     <>
-    {page === 'project' && <ProjectPage setPage={setPage}/>}
+    {page === 'projects' && <ProjectPage setPage={setPage}/>}
     {page === 'welcome' && <WelcomePage setPage={setPage}/>}
     {page === 'resume' && <ResumePage setPage={setPage}/>}
     </>
