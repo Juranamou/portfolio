@@ -7,12 +7,10 @@ import ResumePage from "./ResumePage.jsx";
 import ProjectPage from "./ProjectPage.jsx";
 // Huzzah for jsx!
 const App = () => {
-  const [page, setPage] = useState('welcome');
+  const [page, setPage] = useState('projects');
   return (
     <>
-    {page === 'projects' && <ProjectPage setPage={setPage}/>}
-    {page === 'welcome' && <WelcomePage setPage={setPage}/>}
-    {page === 'resume' && <ResumePage setPage={setPage}/>}
+    <WelcomePage setPage={setPage} page={page}/>
     </>
   );
 }
