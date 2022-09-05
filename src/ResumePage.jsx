@@ -6,7 +6,7 @@ export default function ResumePage() {
         <p className='text-2xl'>
           Charlotte, NC - johnlafayeti@gmail.com
         </p>
-        <div className='text-6xl pt-7 font-bold text-white-300' >
+        <div className='text-6xl pt-7 font-bold text-white-300 underline mb-5' >
           Technical Skills
         </div>
         <div className='text-2xl'>
@@ -24,10 +24,10 @@ export default function ResumePage() {
         <div className='text-2xl'>
           <span className="font-bold">Testing and Deployment: </span>Jest, Mocha, Chai, NGINX K6
         </div>
-        <div className='text-6xl pt-7 font-bold text-white-300' >
+        <div className='text-6xl pt-7 font-bold text-white-300 underline mb-5' >
           Software Applications
         </div>
-        <div className='text-2xl'>
+        <div className='text-3xl font-bold'>
           Back-End Development
         </div>
         <div className='text-2xl'>Created and scaled microservice to handle production level traffic for an e-commerce site by 
