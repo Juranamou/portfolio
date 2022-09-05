@@ -16,8 +16,16 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader','css-loader']
-      }
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.(png|jpeg|jpg|gif|svg)$/,
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]',
+          outputPath: "imgs",
+        },
+      },
     ]
   },
   // [devtool] this is an additional source map that will let the browser know what files are running our code.
