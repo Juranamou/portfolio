@@ -2,31 +2,30 @@ import React from 'react'
 
 export default function ResumePage() {
   return (
-    <>
-      <div className='flex flex-col py-5 px-10 font-bold whitespace-normal'>
+      <div className='flex flex-col py-5 px-10 whitespace-normal text-white font-quicksand'>
         <p className='text-2xl'>
-          John Economou - Charlotte N.C. - johnlafayeti@gmail.com
+          Charlotte, NC - johnlafayeti@gmail.com
         </p>
-        <div className='text-4xl pt-7 font-bold text-cyan-700' >
-          TECHNICAL SKILLS
+        <div className='text-6xl pt-7 font-bold text-white-300' >
+          Technical Skills
         </div>
-        <div className='text-xl' >
-          Languages: CSS HTML JavaScript TypeScript Python Matlab
+        <div className='text-2xl'>
+          <span className="font-bold">Languages: </span>CSS, HTML, JavaScript, TypeScript, Python, Matlab
         </div>
-        <div className='text-xl'>
-          Platforms: AWS Azure Heroku Linux
+        <div className='text-2xl'>
+          <span className="font-bold">Platforms: </span>AWS, Azure, Heroku, Linux
         </div>
-        <div className='text-xl'>
-          Frameworks: Node.js React
+        <div className='text-2xl'>
+          <span className="font-bold">Frameworks: </span>Node.js, React
         </div>
-        <div className='text-xl'>
-          Data: MySQL PostgreSQL MongoDB
+        <div className='text-2xl'>
+          <span className="font-bold">Databases: </span>MySQL, PostgreSQL, MongoDB
         </div>
-        <div className='text-xl'>
-          Testing and Deployment: Jest Mocha Chai NGINX K6
+        <div className='text-2xl'>
+          <span className="font-bold">Testing and Deployment: </span>Jest, Mocha, Chai, NGINX K6
         </div>
-        <div className='text-4xl pt-7 font-bold text-cyan-700' >
-          SOFTWARE APPLICATIONS
+        <div className='text-6xl pt-7 font-bold text-white-300' >
+          Software Applications
         </div>
         <div className='text-2xl'>
           Back-End Development
@@ -34,6 +33,5 @@ export default function ResumePage() {
         <div className='text-2xl'>Created and scaled microservice to handle production level traffic for an e-commerce site by 
         load balancing servers with NGINX on AWS</div>
       </div>
-    </>
   )
 }

@@ -7,7 +7,7 @@ export default function WelcomePage({ setPage, page }) {
   return (
     <>
       <div className='flex h-screen'>
-        <AboutMe className=""/>
+        <AboutMe />
         <Navbar setPage={setPage} page={page} />
       </div>
     </>

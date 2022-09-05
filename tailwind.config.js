@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'nothing-you-could-do': ['"Nothing You Could Do"', 'sans-serif'],
+        'noto': ["Noto Sans Simplified Chinese", 'sans-serif'],
+        'quicksand': ["Quicksand", 'sans-serif'],
+        'mono': ["PT Mono", "monospace"]
+      },
+    },
   },
   plugins: [],
 }

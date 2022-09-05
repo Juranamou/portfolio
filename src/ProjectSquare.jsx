@@ -2,12 +2,13 @@ import React from 'react'
 
 export default function ProjectSquare(props) {
   return (
-    <div className=' flex flex-col bg-slate-800 text-amber-200 my-10 ml-9 items-center py-8'>
-      <img className='w-11/12 pt-8' src={props.img} alt="silent Spy gif"></img>
+    <div className=' flex flex-col bg-white text-black font-quicksand my-10 ml-9 items-center py-8 rounded-lg'>
+      <p className="text-5xl font-bold">{props.project.title}</p> 
+      <img className='w-11/12 pt-8' src={props.project.img} alt="silent Spy gif"></img>
       <div className='mt-10 min w-11/12'>
-        <p className='text-2xl px-7 '>{props.description}</p>
-        <a className='text-2xl px-7 ' href={props.link}>
-        {props.link}
+        <p className='text-2xl'>{props.project.description}</p>
+        <a className='text-2xl' href={props.project.link} target="_blank">
+          <button className='bg-red-500 p-2 rounded-lg text-white mt-10 hover:animate-pulse'>View Source Code</button>
         </a>
       </div>
     </div>
