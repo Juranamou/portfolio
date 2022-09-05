@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function AboutMe() {
   return (
-    <div className = "flex flex-col items-center max-w-md bg-white" >
+    <div className = "flex flex-col items-center max-w-md bg-gray-800 text-white" >
       <img className="rounded-full p-10" src="imgs/src/self.png"/>
       <div className='font-bold font-nothing-you-could-do text-5xl'>
       John Economou
