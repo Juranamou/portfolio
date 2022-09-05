@@ -22,7 +22,7 @@ export default function ProjectPage({ setPage }) {
   ]
   return (
     <>
-      <div className='flex flex-col h-screen w-screen overflow-y-auto mt-0 ml-100 pl-5'>
+      <div className='flex flex-col overflow-y-auto mt-0 ml-100 px-8'>
         {projects.map((project, index) => (
           <ProjectSquare key={index} img={project.img} link={project.link} description={project.description} />
         ))}
