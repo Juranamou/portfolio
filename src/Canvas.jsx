@@ -5,7 +5,7 @@ export default function Canvas({ page }) {
   return (
     <>
       {page === 'projects' && <ProjectPage />}
-      {page === 'resume' && <ResumePage />}
+      {page === 'resume' && <ResumePage/>}
     </>
   )
 }

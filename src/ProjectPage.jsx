@@ -24,7 +24,7 @@ export default function ProjectPage({ setPage }) {
     },
   ]
   return (
-    <div className='flex flex-col overflow-y-auto mt-0 ml-100 px-8'>
+    <div className=' no-scrollbar flex flex-col h-screen overflow-y-auto mt-0 ml-100 px-8'>
       {projects.map((project, index) => (
         <ProjectSquare key={index} project={project} />
       ))}
