@@ -8,7 +8,8 @@
     "server": "npx nodemon -- watch server ./server.js",
     "watch:css": "postcss src/index.css -o public/main.css",
     "tailwind": "npx tailwindcss -i ./src/index.css -o ./public/main.css --watch",
-    "both": "npm run start & npm run server & npm run tailwind"
+    "both": "npm run start & npm run server & npm run tailwind",
+    "build": "webpack --mode=production & node server.js"
   },
   "repository": {
     "type": "git",
